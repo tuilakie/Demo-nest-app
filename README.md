@@ -32,6 +32,17 @@
 $ yarn install
 ```
 
+## Setup enviroment
+
+```bash
+# docker compose up
+$ yarn db:dev:create
+
+# create enviroment
+$ touch .env && cp .env.example .env
+
+```
+
 ## Running the app
 
 ```bash
